@@ -1,0 +1,101 @@
+*{
+  
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: linear-gradient(rgb(255,255,255),rgb(115, 115, 196));
+    height: 100vh;
+}
+.logo{
+   display: block;
+   margin: auto;
+    width: 250px;
+    height: 170px;
+    
+    
+}
+.exitbar{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+   background-color: rgb(134, 158, 192);
+    color: black;
+    width: 655px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.chatroom{
+    width: 500px;
+    font-size:30px;
+    margin-left: 8px;
+    margin-bottom: 0px;
+    
+}
+#exit{
+    width: 90px;
+    margin-left: 60px;
+    cursor: pointer;
+    background-color:rgb(175, 172, 172);
+    height: 37px;
+}
+.container{
+    background-image: linear-gradient(rgb(115, 115, 196));
+   max-width: 650px;
+   margin: auto;
+   height: 550px;
+   border: 1px solid black;
+   border-radius: 5px;
+   overflow:scroll;
+}  
+.message{
+    background-color: rgb(191, 191, 216);
+    width: 300px;
+    font-size:17px;
+    margin: 2px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}
+.left{
+float: left;
+clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: rgb(147, 147, 195);
+}
+
+#send-container{
+    text-align: center;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1px;
+    
+   
+}
+#messageinp{
+    width: 585px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+   
+}
+.btn{
+    width: 65px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
